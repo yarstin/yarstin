@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج إدخال بيانات المستخدم</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>نموذج إدخال بيانات المستخدم</h1>
+        <form id="userForm" action="https://formspree.io/f/your_form_id" method="POST">
+            <label for="name">اسمك:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="mbti">نمط شخصيتك (MBTI):</label>
+            <input type="text" id="mbti" name="mbti" required>
+
+            <label for="age">العمر:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="year">السنة الدراسية:</label>
+            <input type="text" id="year" name="year" required>
+
+            <label for="instagram">عنوان الانستجرام:</label>
+            <input type="url" id="instagram" name="instagram" required>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
